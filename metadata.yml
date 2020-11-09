@@ -1,0 +1,6 @@
+name: "Support Drones"
+version: 1.0
+description: "Adds a variety of small Support Drones towards your arsenal, with scanner, taser, medikit and smoke cover."
+author: "hellrazor, IvanDogovich, Ryskeliini"
+id: "support-drones"
+master: "xcom1"

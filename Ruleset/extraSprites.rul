@@ -1,0 +1,143 @@
+###BEGIN EXTRASPRITES
+extraSprites:
+
+#BEGIN BIGOB
+  - type: BIGOBS.PCK
+    files:
+      57: Resources/BigOb_DroneSmoke_Weapon.png
+      58: Resources/BigOb_DroneScanner_Weapon.png
+      59: Resources/BigOb_DroneTaser_Weapon.png
+      60: Resources/DroneScout/BigOb_DroneScout_Corpse.png
+      61: Resources/DroneScanner/BigOb_DroneScanner_Corpse.png
+      62: Resources/DroneMedikit/BigOb_DroneMedikit_Corpse.png
+      63: Resources/DroneTaser/BigOb_DroneTaser_Corpse.png
+      64: Resources/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
+      65: Resources/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
+      66: Resources/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
+      67: Resources/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+#END BIGOB
+
+#BEGIN FLOOROB
+  - type: FLOOROB.PCK
+    files:
+      73: Resources/DroneScout/FloorOb_DroneScout_Corpse.png
+      74: Resources/DroneScanner/FloorOb_DroneScanner_Corpse.png
+      75: Resources/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
+      76: Resources/DroneTaser/FloorOb_DroneTaser_Corpse.png
+      77: Resources/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
+      78: Resources/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
+      79: Resources/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
+      80: Resources/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
+#END FLOOROB
+
+#BEGIN PROJECTILES
+  - type: Projectiles
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/BulletSprite_DroneTaser.png
+#END PROJECTILES
+
+#BEGIN SMOKE
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/HitAnimation_DroneTaser.png
+#END SMOKE
+
+##BEGIN ARMOR SPRITES
+#BEGIN DRONE SCOUT
+  - type: DRONE_SCOUT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/DroneScout/SpriteSheet_DroneScout.png
+#END DRONE SCOUT
+
+#BEGIN DRONE SCANNER
+  - type: DRONE_SCANNER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/DroneScanner/SpriteSheet_DroneScanner.png
+#END DRONE SCANNER
+
+#BEGIN DRONE MEDIKIT
+  - type: DRONE_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/DroneMedikit/SpriteSheet_DroneMedikit.png
+#END DRONE MEDIKIT
+
+#BEGIN DRONE TASER
+  - type: DRONE_TASER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/DroneTaser/SpriteSheet_DroneTaser.png
+#END DRONE TASER
+
+#BEGIN ALLOY DRONE SCOUT
+  - type: ALLOY_DRONE_SCOUT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
+#END ALLOY DRONE SCOUT
+
+#BEGIN ALLOY DRONE SCANNER
+  - type: ALLOY_DRONE_SCANNER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
+#END ALLOY DRONE SANNER
+
+#BEGIN ALLOY DRONE MEDIKIT
+  - type: ALLOY_DRONE_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
+#END ALLOY DRONE MEDITKIT
+
+#BEGIN ALLOY DRONE TASER
+  - type: ALLOY_DRONE_TASER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
+#END ALLOY DRONE TASER
+##END ARMOR SPRITES
+
+#BEGIN UFOPAEDIA
+  - type: SUPPORT_DRONES_UFOPAEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/UfoPaedia_SupportDrones.png
+#END UFOPAEDIA
+###END EXTRASPRITES

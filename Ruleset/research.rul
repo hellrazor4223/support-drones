@@ -1,0 +1,13 @@
+##BEGIN RESEARCH
+research:
+  - name: STR_SUPPORT_DRONES
+    cost: 100
+    points: 15
+    listOrder: 1
+  - name: STR_ALLOY_DRONE_ARMOR
+    cost: 220
+    points: 30
+    dependencies:
+      - STR_POWER_SUIT
+    listOrder: 2
+##END RESEARCH

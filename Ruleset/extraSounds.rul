@@ -1,0 +1,7 @@
+###BEGIN EXTRASOUNDS
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      100: Resources/Sound_Shoot_DroneSmoke.wav
+      101: Resources/Sound_Shoot_DroneTaser.wav
+###END EXTRASOUNDS

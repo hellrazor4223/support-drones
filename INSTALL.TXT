@@ -1,0 +1,9 @@
+Supprt Drones Mod by hellrazor
+
+Intall instructions:
+ - Go to your Mod folder and delete the old "Support_Drones" directory.
+ - Extract Zip file
+ - Copy over the directory "Support_Drones" in your user mods directory.
+ - Active "Support_Drones" under Mods
+
+This mod requieres at least: openxcom_git_master_2019_02_10_0214 or newer
