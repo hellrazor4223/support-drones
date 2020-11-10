@@ -26,6 +26,10 @@ armors:
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END DRONE SCOUT ARMOR
 
 #BEGIN DRONE SCANNER ARMOR
@@ -42,6 +46,10 @@ armors:
     size: 1
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END DRONE SCANNER ARMOR
 
 #BEGIN DRONE MEDIKIT ARMOR
@@ -58,6 +66,10 @@ armors:
     size: 1
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END DRONE MEDIKIT ARMOR
 
 #BEGIN DRONE TASER ARMOR
@@ -74,10 +86,14 @@ armors:
     size: 1
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END DRONE TASER ARMOR
 ##END DRONE ARMORS
 
-##BEGIN ALLOY DRONE ARMORs
+##BEGIN ALLOY DRONE ARMORS
 #BEGIN ALLOY DRONE SCOUT ARMOR
   - type: ALLOY_DRONE_SCOUT_ARMOR
     spriteSheet: ALLOY_DRONE_SCOUT.PCK
@@ -102,6 +118,10 @@ armors:
       - 1.4
       - 0.0
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END ALLOY DRONE SCOUT ARMOR
 
 #BEGIN ALLOY DRONE SCANNER ARMOR
@@ -118,6 +138,10 @@ armors:
     size: 1
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END ALLOY DRONE SCANNER ARMOR
 
 #BEGIN ALLOY DRONE MEDIKIT ARMOR
@@ -134,6 +158,10 @@ armors:
     size: 1
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END ALLOY DRONE MEDIKIT ARMOR
 
 #BEGIN ALLOY DRONE TASER ARMOR
@@ -150,6 +178,10 @@ armors:
     size: 1
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
+    fearImunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
 #END ALLOY DRONE TASER ARMOR
 ##END ALLOY DRONES ARMORS
 ###END AMORS
