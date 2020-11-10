@@ -1,8 +1,8 @@
 ###BEGIN UNITS
 units:
 
-##BEGIN DRONES
-#BEGIN DRONE SCOUT
+##BEGIN DRONE UNITS
+#BEGIN DRONE SCOUT UNIT
   - type: STR_DRONE_SCOUT
     race: STR_DRONE_SCOUT
     stats:
@@ -20,12 +20,13 @@ units:
     armor: DRONE_SCOUT_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 16
+    value: 10
     deathSound: 23
     moveSound: 14
-#END DRONE SCOUT
+    energyRecovery: 50
+#END DRONE SCOUT UNIT
 
-#BEGIN DRONE SCANNER
+#BEGIN DRONE SCANNER UNIT
   - type: STR_DRONE_SCANNER
     race: STR_DRONE_SCANNER
     stats:
@@ -43,14 +44,15 @@ units:
     armor: DRONE_SCANNER_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 16
+    value: 10
     deathSound: 23
     moveSound: 14
+    energyRecovery: 50
     builtInWeapons:
       - STR_DRONE_SCANNER_WEAPON
-#END DRONE SCANNER
+#END DRONE SCANNER UNIT
 
-#BEGIN DRONE MEDIKIT
+#BEGIN DRONE MEDIKIT UNIT
   - type: STR_DRONE_MEDIKIT
     race: STR_DRONE_MEDIKIT
     stats:
@@ -68,14 +70,15 @@ units:
     armor: DRONE_MEDIKIT_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 16
+    value: 10
     deathSound: 23
     moveSound: 14
+    energyRecovery: 50
     builtInWeapons:
       - STR_DRONE_MEDIKIT_WEAPON
-#END DRONE MEDIKIT
+#END DRONE MEDIKIT UNIT
 
-#BEGIN DRONE TASER
+#BEGIN DRONE TASER UNIT
   - type: STR_DRONE_TASER
     race: STR_DRONE_TASER
     stats:
@@ -93,17 +96,18 @@ units:
     armor: DRONE_TASER_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 16
+    value: 10
     deathSound: 23
     moveSound: 14
+    energyRecovery: 50
     builtInWeapons:
       - STR_DRONE_TASER_WEAPON
       - STR_DRONE_TASER_WEAPON_AMMO
-#END DRONE TASER
-##END DRONES
+#END DRONE TASER UNIT
+##END DRONE UNITS
 
-##BEGIN ALLOY DRONES
-#BEGIN ALLOY DRONE SCOUT
+##BEGIN ALLOY DRONE UNITS
+#BEGIN ALLOY DRONE SCOUT UNIT
   - type: STR_ALLOY_DRONE_SCOUT
     race: STR_ALLOY_DRONE_SCOUT
     stats:
@@ -121,12 +125,13 @@ units:
     armor: ALLOY_DRONE_SCOUT_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 20
+    value: 15
     deathSound: 23
     moveSound: 14
-#END ALLOY DRONE SCOUT
+    energyRecovery: 55
+#END ALLOY DRONE SCOUT UNIT
 
-#BEGIN ALLOY DRONE SCANNER
+#BEGIN ALLOY DRONE SCANNER UNIT
   - type: STR_ALLOY_DRONE_SCANNER
     race: STR_ALLOY_DRONE_SCANNER
     stats:
@@ -144,14 +149,15 @@ units:
     armor: ALLOY_DRONE_SCANNER_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 20
+    value: 15
     deathSound: 23
     moveSound: 14
+    energyRecovery: 55
     builtInWeapons:
       - STR_ALLOY_DRONE_SCANNER_WEAPON
-#END ALLOY DRONE SCANNER
+#END ALLOY DRONE SCANNER UNIT
 
-#BEGIN ALLOY DRONE MEDIKIT
+#BEGIN ALLOY DRONE MEDIKIT UNIT
   - type: STR_ALLOY_DRONE_MEDIKIT
     race: STR_ALLOY_DRONE_MEDIKIT
     stats:
@@ -169,14 +175,15 @@ units:
     armor: ALLOY_DRONE_MEDIKIT_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 20
+    value: 15
     deathSound: 23
     moveSound: 14
+    energyRecovery: 55
     builtInWeapons:
       - STR_ALLOY_DRONE_MEDIKIT_WEAPON
-#END ALLOY DRONE MEDIKIT
+#END ALLOY DRONE MEDIKIT UNIT
 
-#BEGIN ALLOY DRONE TASER
+#BEGIN ALLOY DRONE TASER UNIT
   - type: STR_ALLOY_DRONE_TASER
     race: STR_ALLOY_DRONE_TASER
     stats:
@@ -194,12 +201,13 @@ units:
     armor: ALLOY_DRONE_TASER_ARMOR
     standHeight: 6
     kneelHeight: 6
-    value: 20
+    value: 15
     deathSound: 23
     moveSound: 14
+    energyRecovery: 55
     builtInWeapons:
       - STR_ALLOY_DRONE_TASER_WEAPON
       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
-#END ALLOY DRONE TASER
-##END ALLOY DRONES
+#END ALLOY DRONE TASER UNIT
+##END ALLOY DRONE UNITS
 ###END UNITS

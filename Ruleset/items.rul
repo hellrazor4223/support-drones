@@ -1,24 +1,26 @@
 ###BEGIN ITEMS
 items:
 
-#BEGIN DRONE SMOKE AMMO
+##BEGIN DRONES ITEMS
+#BEGIN DRONE SMOKE AMMO ITEM
   - type: STR_DRONE_SMOKE_AMMO
     requires:
       - STR_SUPPORT_DRONES
-    size: 0.1
-    costBuy: 100
+    size: 0.05
+    costBuy: 200
     costSell: 50
     transferTime: 48
     weight: 3
+    floorSprite: 12
+    hitAnimation: 56
     power: 60
     damageType: 9
     battleType: 2
     clipSize: 3
     listOrder: 1071
-#END DRONE SMOKE AMMO
+#END DRONE SMOKE AMMO ITEM
 
-##BEGIN DRONES
-#BEGIN DRONE SCOUT
+#BEGIN DRONE SCOUT ITEM
   - type: STR_DRONE_SCOUT
     requires:
       - STR_SUPPORT_DRONES
@@ -27,9 +29,9 @@ items:
     costSell: 100000
     transferTime: 72
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -44,16 +46,16 @@ items:
   - type: STR_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
-    bigSprite: 60
-    floorSprite: 73
+    bigSprite: 171
+    floorSprite: 181
     invWidth: 2
     invHeight: 3
     armor: 30
     recover: true
     listOrder: 4990
-#END DRONE SCOUT
+#END DRONE SCOUT ITEM
 
-#BEGIN DRONE SCANNER
+#BEGIN DRONE SCANNER ITEM
   - type: STR_DRONE_SCANNER
     requires:
       - STR_SUPPORT_DRONES
@@ -61,9 +63,9 @@ items:
     size: 2
     costSell: 125000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -81,8 +83,8 @@ items:
       - STR_MOTION_SCANNER
     size: 2
     weight: 40
-    bigSprite: 61
-    floorSprite: 74
+    bigSprite: 172
+    floorSprite: 182
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -93,7 +95,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     weight: 3
-    bigSprite: 58
+    bigSprite: 169
     battleType: 7
     tuUse: 15
     flatRate: true
@@ -102,9 +104,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1073
-#END DRONE SCANNER
+#END DRONE SCANNER ITEM
 
-#BEGIN DRONE MEDIKIT
+#BEGIN DRONE MEDIKIT ITEM
   - type: STR_DRONE_MEDIKIT
     requires:
       - STR_SUPPORT_DRONES
@@ -112,9 +114,9 @@ items:
     size: 2
     costSell: 125000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -132,8 +134,8 @@ items:
       - STR_MEDI_KIT
     size: 2
     weight: 40
-    bigSprite: 62
-    floorSprite: 75
+    bigSprite: 173
+    floorSprite: 183
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -149,9 +151,9 @@ items:
     tuUse: 10
     invWidth: 1
     invHeight: 2
-    painKiller: 10
-    heal: 10
-    stimulant: 10
+    painKiller: 12
+    heal: 12
+    stimulant: 12
     woundRecovery: 1
     healthRecovery: 3
     stunRecovery: 4
@@ -160,9 +162,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1075
-#END DRONE MEDIKIT
+#END DRONE MEDIKIT ITEM
 
-#BEGIN DRONE TASER
+#BEGIN DRONE TASER ITEM
   - type: STR_DRONE_TASER
     requires:
       - STR_SUPPORT_DRONES
@@ -170,9 +172,9 @@ items:
     size: 2
     costSell: 140000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -187,8 +189,8 @@ items:
   - type: STR_DRONE_TASER_CORPSE
     size: 2
     weight: 40
-    bigSprite: 60
-    floorSprite: 76
+    bigSprite: 174
+    floorSprite: 184
     invWidth: 2
     invHeight: 3
     armor: 20
@@ -199,18 +201,18 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     weight: 5
-    bigSprite: 59
-    bulletSprite: 12
-    fireSound: 101
+    bigSprite: 170
+    bulletSprite: 24
+    fireSound: 114
     compatibleAmmo:
       - STR_DRONE_TASER_WEAPON_AMMO
     accuracyAuto: 66
-    tuAuto: 50
-    autoShots: 2
+    tuAuto: 40
+    autoShots: 3
     battleType: 1
     invWidth: 1
     invHeight: 2
-    maxRange: 5
+    maxRange: 14
     recover: false
     fixedWeapon: true
     listOrder: 1077
@@ -218,22 +220,22 @@ items:
     requires:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
-    size: 0.1
+    size: 0.01
     costSell: 500
     weight: 1
     hitSound: 54
-    hitAnimation: 56
-    power: 40
+    hitAnimation: 108
+    power: 30
     blastRadius: 0
     damageType: 6
     battleType: 2
-    clipSize: 6
+    clipSize: 12
     listOrder: 1078
-#END DRONE TASER
-##END DRONES
+#END DRONE TASER ITEM
+##END DRONE ITEMS
 
-##BEGIN ALLOY DRONES
-#BEGIN ALLOY DRONE SCOUT
+##BEGIN ALLOY DRONE ITEMS
+#BEGIN ALLOY DRONE SCOUT ITEM
   - type: STR_ALLOY_DRONE_SCOUT
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -241,9 +243,9 @@ items:
     size: 2
     costSell: 160000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -258,16 +260,16 @@ items:
   - type: STR_ALLOY_DRONE_SCOUT_CORPSE
     size: 2
     weight: 40
-    bigSprite: 64
-    floorSprite: 77
+    bigSprite: 175
+    floorSprite: 185
     invWidth: 2
     invHeight: 3
     armor: 60
     recover: true
     listOrder: 4994
-#END ALLOY DRONE SCOUT
+#END ALLOY DRONE SCOUT ITEM
 
-#BEGIN ALLOY DRONE SCANNER
+#BEGIN ALLOY DRONE SCANNER ITEM
   - type: STR_ALLOY_DRONE_SCANNER
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -276,9 +278,9 @@ items:
     size: 2
     costSell: 180000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -297,8 +299,8 @@ items:
       - STR_MOTION_SCANNER
     size: 2
     weight: 40
-    bigSprite: 65
-    floorSprite: 78
+    bigSprite: 176
+    floorSprite: 186
     invWidth: 2
     invHeight: 3
     recover: true
@@ -309,7 +311,7 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MOTION_SCANNER
     weight: 3
-    bigSprite: 58
+    bigSprite: 169
     battleType: 7
     tuUse: 10
     flatRate: true
@@ -318,9 +320,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1081
-#END ALLOY DRONE SCANNER
+#END ALLOY DRONE SCANNER ITEM
 
-#BEGIN ALLOY DRONE MEDIKIT
+#BEGIN ALLOY DRONE MEDIKIT ITEM
   - type: STR_ALLOY_DRONE_MEDIKIT
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -329,9 +331,9 @@ items:
     size: 2
     costSell: 180000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -350,8 +352,8 @@ items:
       - STR_MEDI_KIT
     size: 2
     weight: 40
-    bigSprite: 66
-    floorSprite: 79
+    bigSprite: 177
+    floorSprite: 187
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -363,14 +365,14 @@ items:
       - STR_SUPPORT_DRONES
       - STR_MEDI_KIT
     weight: 3
-    bigSprite: 24
+    bigSprite: 117
     battleType: 6
     tuUse: 5
     invWidth: 1
     invHeight: 2
-    painKiller: 16
-    heal: 16
-    stimulant: 16
+    painKiller: 18
+    heal: 18
+    stimulant: 18
     woundRecovery: 1
     healthRecovery: 4
     stunRecovery: 5
@@ -379,9 +381,9 @@ items:
     recover: false
     fixedWeapon: true
     listOrder: 1082
-#END ALLOY DRONE MEDIKIT
+#END ALLOY DRONE MEDIKIT ITEM
 
-#BEGIN ALLOY DRONE TASER
+#BEGIN ALLOY DRONE TASER ITEM
   - type: STR_ALLOY_DRONE_TASER
     requires:
       - STR_ALLOY_DRONE_ARMOR
@@ -390,9 +392,9 @@ items:
     size: 2
     costSell: 200000
     weight: 40
-    bigSprite: 57
+    bigSprite: 168
     bulletSprite: 4
-    fireSound: 100
+    fireSound: 113
     compatibleAmmo:
       - STR_DRONE_SMOKE_AMMO
     accuracySnap: 100
@@ -411,8 +413,8 @@ items:
       - STR_ELERIUM_115
     size: 2
     weight: 40
-    bigSprite: 67
-    floorSprite: 80
+    bigSprite: 178
+    floorSprite: 188
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -424,18 +426,18 @@ items:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
     weight: 5
-    bigSprite: 59
-    bulletSprite: 12
-    fireSound: 101
+    bigSprite: 170
+    bulletSprite: 24
+    fireSound: 114
     compatibleAmmo:
       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
     accuracyAuto: 80
-    tuAuto: 40
+    tuAuto: 33
     autoShots: 3
     battleType: 1
     invWidth: 1
     invHeight: 2
-    maxRange: 6
+    maxRange: 18
     recover: false
     fixedWeapon: true
     listOrder: 1084
@@ -444,16 +446,16 @@ items:
       - STR_ALLOY_DRONE_ARMOR
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
-    size: 0.1
+    size: 0.01
     costSell: 1000
     weight: 1
     hitSound: 54
-    hitAnimation: 56
-    power: 60
+    hitAnimation: 108
+    power: 90
     blastRadius: 0
     damageType: 6
     battleType: 2
-    clipSize: 9
+    clipSize: 24
     listOrder: 1085
-#END ALLOY DRONE TASER
-##END ALLOY DRONES
+#END ALLOY DRONE TASER ITEM
+##END ALLOY DRONE ITEMS

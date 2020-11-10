@@ -4,30 +4,30 @@ extraSprites:
 #BEGIN BIGOB
   - type: BIGOBS.PCK
     files:
-      57: Resources/BigOb_DroneSmoke_Weapon.png
-      58: Resources/BigOb_DroneScanner_Weapon.png
-      59: Resources/BigOb_DroneTaser_Weapon.png
-      60: Resources/DroneScout/BigOb_DroneScout_Corpse.png
-      61: Resources/DroneScanner/BigOb_DroneScanner_Corpse.png
-      62: Resources/DroneMedikit/BigOb_DroneMedikit_Corpse.png
-      63: Resources/DroneTaser/BigOb_DroneTaser_Corpse.png
-      64: Resources/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
-      65: Resources/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
-      66: Resources/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
-      67: Resources/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+      168: Resources/BigOb_DroneSmoke_Weapon.png
+      169: Resources/BigOb_DroneScanner_Weapon.png
+      170: Resources/BigOb_DroneTaser_Weapon.png
+      171: Resources/DroneScout/BigOb_DroneScout_Corpse.png
+      172: Resources/DroneScanner/BigOb_DroneScanner_Corpse.png
+      173: Resources/DroneMedikit/BigOb_DroneMedikit_Corpse.png
+      174: Resources/DroneTaser/BigOb_DroneTaser_Corpse.png
+      175: Resources/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
+      176: Resources/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
+      177: Resources/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
+      178: Resources/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
 #END BIGOB
 
 #BEGIN FLOOROB
   - type: FLOOROB.PCK
     files:
-      73: Resources/DroneScout/FloorOb_DroneScout_Corpse.png
-      74: Resources/DroneScanner/FloorOb_DroneScanner_Corpse.png
-      75: Resources/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
-      76: Resources/DroneTaser/FloorOb_DroneTaser_Corpse.png
-      77: Resources/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
-      78: Resources/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
-      79: Resources/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
-      80: Resources/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
+      181: Resources/DroneScout/FloorOb_DroneScout_Corpse.png
+      182: Resources/DroneScanner/FloorOb_DroneScanner_Corpse.png
+      183: Resources/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
+      184: Resources/DroneTaser/FloorOb_DroneTaser_Corpse.png
+      185: Resources/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
+      186: Resources/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
+      187: Resources/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
+      188: Resources/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
 #END FLOOROB
 
 #BEGIN PROJECTILES
@@ -37,7 +37,7 @@ extraSprites:
     subX: 3
     subY: 3
     files:
-      385: Resources/BulletSprite_DroneTaser.png
+      840: Resources/BulletSprite_DroneTaser.png
 #END PROJECTILES
 
 #BEGIN SMOKE
@@ -47,7 +47,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      56: Resources/HitAnimation_DroneTaser.png
+      108: Resources/HitAnimation_DroneTaser.png
 #END SMOKE
 
 ##BEGIN ARMOR SPRITES
