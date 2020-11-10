@@ -1,8 +1,8 @@
-#Support Drones Mod v 1.0 by hellrazor
+#Support Drones Mod v 1.1 by hellrazor
 
 This mod requires at least: openxcom_git_master_2019_02_10_0214 or newer
 
-README for Version 1.0:
+README for Version 1.1:
 
 About this mod:
 This mod adds a army of small drones towards the xcom arsenal. 
@@ -10,15 +10,26 @@ The drones are small 1x1 sized tanks, which are mainly used for scouting and in 
 They do have a weak smoke launcher, with limited range and shots, to break enemy line of sight 
 or hide exposed soldiers.
 
+The mod should now also work correctly in OpenXcomExtended (Drones are now immun against Stun and Zombification).
+
 There are also models equipped with motion scanners, medikits and tasers for stunning.
-The 4 drones are:
+The Drones are:
 
 	- Drone/Scout (More Armor, buyable)
 	- Drone/Scanner (Less Armor, Motion Scanner)
 	- Drone/Medikit (Less Armor, Medikit)
 	- Drone/Taser (Less Armor, Taser for range limited stun)
+	- Alloy Drone/Scout (More Armor)
+	- Alloy Drone/Scanner (Less Armor, Motion Scanner)
+	- Alloy Drone/Medikit (Less Armor, Medikit)
+	- Alloy Drone/Taser (Less Armor, Taser for range limited stun)
 
-There is also a enhanced Alien Alloy Version of each of them, which are a little bit faster and way more durable.
+All Drones are repairable, if the corpse of the unit is recovered (at the end of a successful mission).
+Drones can also be upgraded and they can switch around the equipment.
+For convinience reasons, the Drones have their own three categories in the manufacture menu:
+	- Support Drones (Produce Drones and Drone Ammo)
+	- Repair Drones (Guess what, repait them)
+	- Upgrade Drones (Make then fancier ;-))
 Each drone does use one of the HWP spots in your craft, allowing you, to bring a bigger team of soldiers
 and still have a sacrifical/expandable unit nearby. Of course you can also mix them with normal tanks.
 For example a vanilla Avenger could carry, two normal tanks, two drones and also 16 soldiers, which is a decent sized fighting force.
