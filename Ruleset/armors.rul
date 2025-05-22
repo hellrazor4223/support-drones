@@ -162,26 +162,6 @@ armors:
     zombiImmune: true
 #END ALLOY DRONE MEDIKIT ARMOR
 
-#BEGIN ALLOY DRONE ADVANCED MEDIKIT ARMOR
-  - type: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
-    spriteSheet: ALLOY_DRONE_ADVANCED_MEDIKIT.PCK
-    allowInv: false
-    corpseBattle:
-      - STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE
-    frontArmor: 70
-    sideArmor: 55
-    rearArmor: 40
-    underArmor: 40
-    drawingRoutine: 4
-    size: 1
-    damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
-    loftempsSet: [ 3 ]
-    fearImmunne: true
-    bleedImmune: true
-    painImmune: true
-    zombiImmune: true
-#END ALLOY DRONE ADVANCED MEDIKIT ARMOR
-
 #BEGIN ALLOY DRONE TASER ARMOR
   - type: ALLOY_DRONE_TASER_ARMOR
     spriteSheet: ALLOY_DRONE_TASER.PCK
@@ -256,12 +236,12 @@ armors:
     zombiImmune: true
 #END HOVERDRONE SCANNER ARMOR
 
-#BEGIN HOVERDRONE ADVANCED MEDIKIT ARMOR
-  - type: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
-    spriteSheet: HOVERDRONE_ADVANCED_MEDIKIT.PCK
+#BEGIN HOVERDRONE MEDIKIT ARMOR
+  - type: HOVERDRONE_MEDIKIT_ARMOR
+    spriteSheet: HOVERDRONE_MEDIKIT.PCK
     allowInv: false
     corpseBattle:
-      - STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE
+      - STR_HOVERDRONE_MEDIKIT_CORPSE
     frontArmor: 110
     sideArmor: 110
     rearArmor: 110
@@ -276,7 +256,7 @@ armors:
     bleedImmune: true
     painImmune: true
     zombiImmune: true
-#END HOVERDRONE ADVANCED MEDIKIT ARMOR
+#END HOVERDRONE MEDIKIT ARMOR
 
 #BEGIN HOVERDRONE TASER ARMOR
   - type: HOVERDRONE_TASER_ARMOR
