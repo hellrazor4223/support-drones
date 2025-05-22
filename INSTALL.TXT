@@ -1,9 +1,13 @@
-Supprt Drones Mod by hellrazor
+#Support Drones Mod by hellrazor
 
-Intall instructions:
+#Prerequisites:
+This mod requires at least:
+OXCE: OXCE v8.20 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
+Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
+
+#Install instructions:
  - Go to your Mod folder and delete the old "Support_Drones" directory.
  - Extract Zip file
  - Copy over the directory "Support_Drones" in your user mods directory.
  - Active "Support_Drones" under Mods
-
-This mod requieres at least: openxcom_git_master_2019_02_10_0214 or newer

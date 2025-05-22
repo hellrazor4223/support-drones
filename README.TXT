@@ -1,8 +1,17 @@
-#Support Drones Mod v 1.1 by hellrazor
+#Support Drones Mod v1.2 by hellrazor
 
-This mod requires at least: openxcom_git_master_2019_02_10_0214 or newer
 
-README for Version 1.1:
+#Prerequisites:
+This mod requires at least:
+OXCE: OXCE v8.20 see: https://openxcom.org/forum/index.php/topic,5258.0.html
+or newer (Newer Versions can include changes, which requires the mod to be updated or patched)
+Please report all issues and bugs here: https://openxcom.org/forum/index.php/topic,4968.0.html
+
+README for Version 1.2:
+
+###########################
+#  Drone me up Scotty ;)  #
+###########################
 
 About this mod:
 This mod adds a army of small drones towards the xcom arsenal. 
@@ -17,19 +26,24 @@ The Drones are:
 
 	- Drone/Scout (More Armor, buyable)
 	- Drone/Scanner (Less Armor, Motion Scanner)
-	- Drone/Medikit (Less Armor, Medikit)
-	- Drone/Taser (Less Armor, Taser for range limited stun)
+	- Drone/Medikit (Less Armor, Medikit x2)
+	- Drone/Taser (Less Armor, Taser for range limited Stun, needs Taser Clips)
 	- Alloy Drone/Scout (More Armor)
 	- Alloy Drone/Scanner (Less Armor, Motion Scanner)
-	- Alloy Drone/Medikit (Less Armor, Medikit)
-	- Alloy Drone/Taser (Less Armor, Taser for range limited stun)
+	- Alloy Drone/Medikit (Less Armor, Medikit x2)
+	- Alloy Drone/Taser (Less Armor, Taser for range limited Stun, needs Taser Clips)
+	- Hoverdrone/Scout (More Armor, Flying Unit)
+	- Hoverdrone/Scanner (Less Armor, Motion Scanner, Flying Unit)
+	- Hoverdrone/Medikit (Less Armor, Medikit x2, Flying Unit)
+	- Hoverdrone/Scout (Less Armor, Taser for range limited Stun, unlimited Ammo)
 
 All Drones are repairable, if the corpse of the unit is recovered (at the end of a successful mission).
 Drones can also be upgraded and they can switch around the equipment.
-For convinience reasons, the Drones have their own three categories in the manufacture menu:
+For convinience reasons, the Drones have their own categories in the manufacture menu:
 	- Support Drones (Produce Drones and Drone Ammo)
-	- Repair Drones (Guess what, repait them)
+	- Repair Drones (Guess what, repair them)
 	- Upgrade Drones (Make then fancier ;-))
+
 Each drone does use one of the HWP spots in your craft, allowing you, to bring a bigger team of soldiers
 and still have a sacrifical/expandable unit nearby. Of course you can also mix them with normal tanks.
 For example a vanilla Avenger could carry, two normal tanks, two drones and also 16 soldiers, which is a decent sized fighting force.
