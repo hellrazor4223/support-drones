@@ -1,143 +1,291 @@
 ###BEGIN EXTRASPRITES
 extraSprites:
 
-#BEGIN BIGOB
+##BEGIN XCOM DRONE BIGOBS
   - type: BIGOBS.PCK
     files:
-      168: Resources/BigOb_DroneSmoke_Weapon.png
-      169: Resources/BigOb_DroneScanner_Weapon.png
-      170: Resources/BigOb_DroneTaser_Weapon.png
-      171: Resources/DroneScout/BigOb_DroneScout_Corpse.png
-      172: Resources/DroneScanner/BigOb_DroneScanner_Corpse.png
-      173: Resources/DroneMedikit/BigOb_DroneMedikit_Corpse.png
-      174: Resources/DroneTaser/BigOb_DroneTaser_Corpse.png
-      175: Resources/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
-      176: Resources/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
-      177: Resources/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
-      178: Resources/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
-#END BIGOB
+      168: Resources/Units/Xcom/Drones/BigOb_DroneSmoke_Weapon.png
+      169: Resources/Units/Xcom/Drones/BigOb_DroneScanner_Weapon.png
+      170: Resources/Units/Xcom/Drones/BigOb_DroneTaser_Weapon.png
+      171: Resources/Units/Xcom/Drones/DroneScout/BigOb_DroneScout_Corpse.png
+      172: Resources/Units/Xcom/Drones/DroneScanner/BigOb_DroneScanner_Corpse.png
+      173: Resources/Units/Xcom/Drones/DroneMedikit/BigOb_DroneMedikit_Corpse.png
+      174: Resources/Units/Xcom/Drones/DroneTaser/BigOb_DroneTaser_Corpse.png
+      175: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/BigOb_AlloyDroneScout_Corpse.png
+      176: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/BigOb_AlloyDroneScanner_Corpse.png
+      177: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/BigOb_AlloyDroneMedikit_Corpse.png
+      199: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/BigOb_AlloyDroneAdvancedMedikit_Corpse.png
+      178: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/BigOb_AlloyDroneTaser_Corpse.png
+      203: Resources/Units/Xcom/HoverDrones/HoverDroneScout/BigOb_HoverDroneScout_Corpse.png
+      204: Resources/Units/Xcom/HoverDrones/HoverDroneScanner/BigOb_HoverDroneScanner_Corpse.png
+      205: Resources/Units/Xcom/HoverDrones/HoverDroneAdvancedMedikit/BigOb_HoverDroneAdvancedMedikit_Corpse.png
+      206: Resources/Units/Xcom/HoverDrones/HoverDroneTaser/BigOb_HoverDroneTaser_Corpse.png
+##END XCOM DRONE BIGOBS
 
-#BEGIN FLOOROB
-  - type: FLOOROB.PCK
-    files:
-      181: Resources/DroneScout/FloorOb_DroneScout_Corpse.png
-      182: Resources/DroneScanner/FloorOb_DroneScanner_Corpse.png
-      183: Resources/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
-      184: Resources/DroneTaser/FloorOb_DroneTaser_Corpse.png
-      185: Resources/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
-      186: Resources/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
-      187: Resources/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
-      188: Resources/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
-#END FLOOROB
+##BEGIN XCOM DRONE FLOOROB
+      181: Resources/Units/Xcom/Drones/DroneScout/FloorOb_DroneScout_Corpse.png
+      182: Resources/Units/Xcom/Drones/DroneScanner/FloorOb_DroneScanner_Corpse.png
+      183: Resources/Units/Xcom/Drones/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
+      184: Resources/Units/Xcom/Drones/DroneTaser/FloorOb_DroneTaser_Corpse.png
+      185: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/FloorOb_AlloyDroneScout_Corpse.png
+      186: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/FloorOb_AlloyDroneScanner_Corpse.png
+      187: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/FloorOb_AlloyDroneMedikit_Corpse.png
+      213: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/FloorOb_AlloyDroneAdvancedMedikit_Corpse.png
+      188: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/FloorOb_AlloyDroneTaser_Corpse.png
+      217: Resources/Units/Xcom/HoverDrones/HoverDroneScout/FloorOb_HoverDroneScout_Corpse.png
+      218: Resources/Units/Xcom/HoverDrones/HoverDroneScanner/FloorOb_HoverDroneScanner_Corpse.png
+      219: Resources/Units/Xcom/HoverDrones/HoverDroneAdvancedMedikit/FloorOb_HoverDroneAdvancedMedikit_Corpse.png
+      220: Resources/Units/Xcom/HoverDrones/HoverDroneTaser/FloorOb_HoverDroneTaser_Corpse.png
+##END XCOM DRONE FLOOROB
 
-#BEGIN PROJECTILES
-  - type: Projectiles
-    width: 65
-    height: 6
-    subX: 3
-    subY: 3
-    files:
-      840: Resources/BulletSprite_DroneTaser.png
-#END PROJECTILES
-
-#BEGIN SMOKE
-  - type: SMOKE.PCK
-    height: 80
-    width: 160
-    subX: 32
-    subY: 40
-    files:
-      108: Resources/HitAnimation_DroneTaser.png
-#END SMOKE
-
-##BEGIN ARMOR SPRITES
-#BEGIN DRONE SCOUT
+##BEGIN XCOM DRONE SPRITES
+#BEGIN DRONE SCOUT SRPITE
   - type: DRONE_SCOUT.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/DroneScout/SpriteSheet_DroneScout.png
-#END DRONE SCOUT
+      0: Resources/Units/Xcom/Drones/DroneScout/SpriteSheet_DroneScout.png
+  - type: DRONE_SCOUT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneScout/UfoPaedia_DroneScout.png
+#END DRONE SCOUT SPRITE
 
-#BEGIN DRONE SCANNER
+#BEGIN DRONE SCANNER SPRITE
   - type: DRONE_SCANNER.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/DroneScanner/SpriteSheet_DroneScanner.png
-#END DRONE SCANNER
+      0: Resources/Units/Xcom/Drones/DroneScanner/SpriteSheet_DroneScanner.png
+  - type: DRONE_SCANNER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneScanner/UfoPaedia_DroneScanner.png
+#END DRONE SCANNER SPRITE
 
-#BEGIN DRONE MEDIKIT
+#BEGIN DRONE MEDIKIT SPRITE
   - type: DRONE_MEDIKIT.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/DroneMedikit/SpriteSheet_DroneMedikit.png
-#END DRONE MEDIKIT
+      0: Resources/Units/Xcom/Drones/DroneMedikit/SpriteSheet_DroneMedikit.png
+  - type: DRONE_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneMedikit/UfoPaedia_DroneMedikit.png
+#END DRONE MEDIKIT SPRITE
 
-#BEGIN DRONE TASER
+#BEGIN DRONE TASER SPRITE
   - type: DRONE_TASER.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/DroneTaser/SpriteSheet_DroneTaser.png
-#END DRONE TASER
+      0: Resources/Units/Xcom/Drones/DroneTaser/SpriteSheet_DroneTaser.png
+  - type: DRONE_TASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/Drones/DroneTaser/UfoPaedia_DroneTaser.png
+#END DRONE TASER SPRITE
 
-#BEGIN ALLOY DRONE SCOUT
+#BEGIN ALLOY DRONE SCOUT SPRITE
   - type: ALLOY_DRONE_SCOUT.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
-#END ALLOY DRONE SCOUT
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
+  - type: ALLOY_DRONE_SCOUT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScout/UfoPaedia_AlloyDroneScout.png
+#END ALLOY DRONE SCOUT SPRITE
 
-#BEGIN ALLOY DRONE SCANNER
+#BEGIN ALLOY DRONE SCANNER SPRITE
   - type: ALLOY_DRONE_SCANNER.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
-#END ALLOY DRONE SANNER
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
+  - type: ALLOY_DRONE_SCANNER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneScanner/UfoPaedia_AlloyDroneScanner.png
+#END ALLOY DRONE SANNER SPRITE
 
-#BEGIN ALLOY DRONE MEDIKIT
+#BEGIN ALLOY DRONE MEDIKIT SPRITE
   - type: ALLOY_DRONE_MEDIKIT.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
-#END ALLOY DRONE MEDITKIT
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
+  - type: ALLOY_DRONE_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneMedikit/UfoPaedia_AlloyDroneMedikit.png
+#END ALLOY DRONE MEDIKIT SPRITE
 
-#BEGIN ALLOY DRONE TASER
+#BEGIN ALLOY DRONE ADVANCED MEDIKIT SPRITE
+  - type: ALLOY_DRONE_ADVANCED_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/SpriteSheet_AlloyDroneAdvancedMedikit.png
+  - type: ALLOY_DRONE_ADVANCED_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneAdvancedMedikit/UfoPaedia_AlloyDroneAdvancedMedikit.png
+#END ALLOY DRONE ADVANCED MEDIKIT SPRITE
+
+#BEGIN ALLOY DRONE TASER SPRITE
   - type: ALLOY_DRONE_TASER.PCK
     width: 256
     height: 400
     subX: 32
     subY: 40
     files:
-      0: Resources/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
-#END ALLOY DRONE TASER
-##END ARMOR SPRITES
-
-#BEGIN UFOPAEDIA
-  - type: SUPPORT_DRONES_UFOPAEDIA.SPK
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
+  - type: ALLOY_DRONE_TASER.SPK
     singleImage: true
     width: 320
     height: 200
-    files: 
-      0: Resources/UfoPaedia_SupportDrones.png
+    files:
+      0: Resources/Units/Xcom/AlloyDrones/AlloyDroneTaser/UfoPaedia_AlloyDroneTaser.png
+#END ALLOY DRONE TASER SPRITE
+
+#BEGIN HOVERDRONE SCOUT SPRITE
+  - type: HOVERDRONE_SCOUT.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneScout/SpriteSheet_HoverDroneScout.png
+  - type: HOVERDRONE_SCOUT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneScout/UfoPaedia_HoverDroneScout.png
+#END HOVERDRONE SCOUT SPRITE
+
+#BEGIN HOVERDRONE SCANNER SPRITE
+  - type: HOVERDRONE_SCANNER.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneScanner/SpriteSheet_HoverDroneScanner.png
+  - type: HOVERDRONE_SCANNER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneScanner/UfoPaedia_HoverDroneScanner.png
+#END HOVERDRONE SANNER SPRITE
+
+#BEGIN HOVERDRONE ADVANCED MEDIKIT SPRITE
+  - type: HOVERDRONE_ADVANCED_MEDIKIT.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneAdvancedMedikit/SpriteSheet_HoverDroneAdvancedMedikit.png
+  - type: HOVERDRONE_ADVANCED_MEDIKIT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneAdvancedMedikit/UfoPaedia_HoverDroneAdvancedMedikit.png
+#END HOVERDRONE ADVANCED MEDIKIT SPRITE
+
+#BEGIN HOVERDRONE TASER SPRITE
+  - type: HOVERDRONE_TASER.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneTaser/SpriteSheet_HoverDroneTaser.png
+  - type: HOVERDRONE_TASER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Units/Xcom/HoverDrones/HoverDroneTaser/UfoPaedia_HoverDroneTaser.png
+#END HOVERDRONE TASER SPRITE
+##END XCOM DRONE SPRITES
+
+##BEGIN PROJECTILES
+  - type: Projectiles
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      980: Resources/Items/Xcom/TaserPistol/BulletSprite_TaserPistol_Clip.png
+  - type: Projectiles
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      1015: Resources/Units/Xcom/HoverDrones/BulletSprite_HoverDroneTaser.png
+##END PROJECTILES
+
+##BEGIN HIT & EXPLOSTION ANIMATIONS
+#BEGIN SMOKE
+  - type: SMOKE.PCK
+    width: 160
+    height: 80
+    subX: 32
+    subY: 40
+    files:
+      120: Resources/Units/Xcom/Drones/HitAnimation_DroneTaser.png
+      130: Resources/Units/Xcom/HoverDrones/HitAnimation_HoverDroneTaser.png
+#END SMOKE
+##END HIT & EXPLOSTION ANIMATIONS
+
+##BEGIN RESEARCH
+#BEGIN UFOPAEDIA
+  - type: SUPPORT_DRONES.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: ../Resources/Research/UfoPaedia_SupportDrones.png
 #END UFOPAEDIA
+##END RESEARCH
 ###END EXTRASPRITES
