@@ -1,7 +1,7 @@
 ###BEGIN ARMORS
 armors:
 
-##BEGIN DRONE ARMORS
+##BEGIN XCOM DRONE ARMORS
 #BEGIN DRONE SCOUT ARMOR
   - type: DRONE_SCOUT_ARMOR
     spriteSheet: DRONE_SCOUT.PCK
@@ -23,10 +23,10 @@ armors:
       - 1.0
       - 0.0
       - 1.0
-      - 1.4
+      - 0.4
       - 0.0
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
@@ -46,7 +46,7 @@ armors:
     size: 1
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
@@ -66,7 +66,7 @@ armors:
     size: 1
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
@@ -86,14 +86,12 @@ armors:
     size: 1
     damageModifier: *DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
 #END DRONE TASER ARMOR
-##END DRONE ARMORS
 
-##BEGIN ALLOY DRONE ARMORS
 #BEGIN ALLOY DRONE SCOUT ARMOR
   - type: ALLOY_DRONE_SCOUT_ARMOR
     spriteSheet: ALLOY_DRONE_SCOUT.PCK
@@ -109,16 +107,16 @@ armors:
     damageModifier: &ALLOY_DRONE_DAMAGE_MODIFIER
       - 1.0
       - 1.0
-      - 0.0
+      - 0.2
       - 0.8
       - 1.0
-      - 1.0
+      - 0.9
       - 0.0
       - 1.0
-      - 1.4
+      - 0.4
       - 0.0
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
@@ -138,7 +136,7 @@ armors:
     size: 1
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
@@ -158,11 +156,31 @@ armors:
     size: 1
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
 #END ALLOY DRONE MEDIKIT ARMOR
+
+#BEGIN ALLOY DRONE ADVANCED MEDIKIT ARMOR
+  - type: ALLOY_DRONE_ADVANCED_MEDIKIT_ARMOR
+    spriteSheet: ALLOY_DRONE_ADVANCED_MEDIKIT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_ALLOY_DRONE_ADVANCED_MEDIKIT_CORPSE
+    frontArmor: 70
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 40
+    drawingRoutine: 4
+    size: 1
+    damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImmunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END ALLOY DRONE ADVANCED MEDIKIT ARMOR
 
 #BEGIN ALLOY DRONE TASER ARMOR
   - type: ALLOY_DRONE_TASER_ARMOR
@@ -178,10 +196,108 @@ armors:
     size: 1
     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
     loftempsSet: [ 3 ]
-    fearImunne: true
+    fearImmunne: true
     bleedImmune: true
     painImmune: true
     zombiImmune: true
 #END ALLOY DRONE TASER ARMOR
-##END ALLOY DRONES ARMORS
+
+#BEGIN HOVERDRONE SCOUT ARMOR
+  - type: HOVERDRONE_SCOUT_ARMOR
+    spriteSheet: HOVERDRONE_SCOUT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_SCOUT_CORPSE
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: &HOVERDRONE_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.8
+      - 1.0
+      - 0.8
+      - 0.0
+      - 1.0
+      - 0.4
+      - 0.0
+    loftempsSet: [ 3 ]
+    fearImmunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE SCOUT ARMOR
+
+#BEGIN HOVERDRONE SCANNER ARMOR
+  - type: HOVERDRONE_SCANNER_ARMOR
+    spriteSheet: HOVERDRONE_SCANNER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_SCANNER_CORPSE
+    frontArmor: 110
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 80
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: *HOVERDRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImmunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE SCANNER ARMOR
+
+#BEGIN HOVERDRONE ADVANCED MEDIKIT ARMOR
+  - type: HOVERDRONE_ADVANCED_MEDIKIT_ARMOR
+    spriteSheet: HOVERDRONE_ADVANCED_MEDIKIT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_ADVANCED_MEDIKIT_CORPSE
+    frontArmor: 110
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 80
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: *HOVERDRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImmunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE ADVANCED MEDIKIT ARMOR
+
+#BEGIN HOVERDRONE TASER ARMOR
+  - type: HOVERDRONE_TASER_ARMOR
+    spriteSheet: HOVERDRONE_TASER.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERDRONE_TASER_CORPSE
+    frontArmor: 110
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 80
+    drawingRoutine: 4
+    constantAnimation: true
+    movementType: 1
+    size: 1
+    damageModifier: *HOVERDRONE_DAMAGE_MODIFIER
+    loftempsSet: [ 3 ]
+    fearImmunne: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+#END HOVERDRONE TASER ARMOR
+##END XCOM DRONE ARMORS
 ###END AMORS
