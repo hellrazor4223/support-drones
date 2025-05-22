@@ -1,5 +1,7 @@
 ##BEGIN RESEARCH
 research:
+
+#BEGIN DRONES
   - name: STR_SUPPORT_DRONES
     cost: 100
     points: 15
@@ -8,6 +10,16 @@ research:
     cost: 220
     points: 30
     dependencies:
+      - STR_SUPPORT_DRONES
       - STR_POWER_SUIT
     listOrder: 2
+  - name: STR_HOVERDRONE_ARMOR
+    cost: 440
+    points: 30
+    dependencies:
+      - STR_SUPPORT_DRONES
+      - STR_POWER_SUIT
+      - STR_UFO_CONSTRUCTION
+    listOrder: 3
+#END DRONES
 ##END RESEARCH
