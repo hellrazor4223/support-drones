@@ -70,6 +70,7 @@ Version 1.2
  - Update mod for OXCE 8.20+
  - Fix error for Drones panicing
  - Fix error with mission corpse ID's
+ - Fix Smokelauncher righthandedness
  - Add Hoverdrones
  - Add Language Support
 
