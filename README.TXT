@@ -38,6 +38,7 @@ The Drones are:
 
 All Drones are repairable, if the corpse of the unit is recovered (at the end of a successful mission).
 Drones can also be upgraded and they can switch around the equipment.
+Drone Medikits are twice as effective as Medikits carried by soldiers and hold double the charges.
 
 For convinience reasons, the Drones have their own categories in the manufacture menu:
 	- Support Drones (Produce Drones and Drone Ammo)
@@ -68,6 +69,7 @@ CHANGELOG:
 
 Version 1.2
  - Update mod for OXCE 8.20+
+ - Adjust Drone Medikit effectiveness
  - Fix error for Drones panicing
  - Fix error with mission corpse ID's
  - Fix Smokelauncher righthandedness

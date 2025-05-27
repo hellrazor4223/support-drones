@@ -117,9 +117,9 @@ items:
     heal: 12
     stimulant: 12
     woundRecovery: 1
-    healthRecovery: 3
-    stunRecovery: 4
-    energyRecovery: 10
+    healthRecovery: 6
+    stunRecovery: 8
+    energyRecovery: 20
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
@@ -311,9 +311,9 @@ items:
     heal: 12
     stimulant: 12
     woundRecovery: 1
-    healthRecovery: 3
-    stunRecovery: 4
-    energyRecovery: 10
+    healthRecovery: 6
+    stunRecovery: 8
+    energyRecovery: 20
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
@@ -494,7 +494,7 @@ items:
 #END HOVERDRONE SCANNER ITEM
 
 #BEGIN HOVERDRONE MEDIKIT ITEM
-  - type: STR_HOVERDRONE__MEDIKIT
+  - type: STR_HOVERDRONE_MEDIKIT
     customItemPreviewIndex: 16
     requires:
       - STR_HOVERDRONE_ARMOR
@@ -513,8 +513,8 @@ items:
     stimulant: 18
     woundRecovery: 1
     healthRecovery: 6
-    stunRecovery: 6
-    energyRecovery: 15
+    stunRecovery: 8
+    energyRecovery: 20
     flatRate: true
     fixedWeapon: true
     medikitTargetMatrix: 63
