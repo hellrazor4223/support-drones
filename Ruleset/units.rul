@@ -5,7 +5,7 @@ units:
 #BEGIN DRONE SCOUT UNIT
   - type: STR_DRONE_SCOUT
     race: STR_DRONE_SCOUT
-    stats:
+    stats: &DRONE_STATS
       tu: 70
       stamina: 110
       health: 90
@@ -24,23 +24,15 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+    builtInWeaponSets:
+      -
+        - STR_DRONE_FLARE_WEAPON
 #END DRONE SCOUT UNIT
 
 #BEGIN DRONE SCANNER UNIT
   - type: STR_DRONE_SCANNER
     race: STR_DRONE_SCANNER
-    stats:
-      tu: 70
-      stamina: 110
-      health: 90
-      bravery: 110
-      reactions: 60
-      firing: 100
-      throwing: 0
-      strength: 50
-      psiStrength: 120
-      psiSkill: 0
-      melee: 0
+    stats: *DRONE_STATS
     armor: DRONE_SCANNER_ARMOR
     standHeight: 6
     kneelHeight: 6
@@ -56,18 +48,7 @@ units:
 #BEGIN DRONE MEDIKIT UNIT
   - type: STR_DRONE_MEDIKIT
     race: STR_DRONE_MEDIKIT
-    stats:
-      tu: 70
-      stamina: 110
-      health: 90
-      bravery: 110
-      reactions: 60
-      firing: 100
-      throwing: 0
-      strength: 50
-      psiStrength: 120
-      psiSkill: 0
-      melee: 0
+    stats: *DRONE_STATS
     armor: DRONE_MEDIKIT_ARMOR
     standHeight: 6
     kneelHeight: 6
@@ -83,18 +64,7 @@ units:
 #BEGIN DRONE TASER UNIT
   - type: STR_DRONE_TASER
     race: STR_DRONE_TASER
-    stats:
-      tu: 70
-      stamina: 110
-      health: 90
-      bravery: 110
-      reactions: 60
-      firing: 100
-      throwing: 0
-      strength: 50
-      psiStrength: 120
-      psiSkill: 0
-      melee: 0
+    stats: *DRONE_STATS
     armor: DRONE_TASER_ARMOR
     standHeight: 6
     kneelHeight: 6
@@ -110,7 +80,7 @@ units:
 #BEGIN ALLOY DRONE SCOUT UNIT
   - type: STR_ALLOY_DRONE_SCOUT
     race: STR_ALLOY_DRONE_SCOUT
-    stats:
+    stats: &ALLOYDRONE_STATS
       tu: 80
       stamina: 130
       health: 90
@@ -129,23 +99,15 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 55
+    builtInWeaponSets:
+      -
+        - STR_ALLOY_DRONE_FLARE_WEAPON
 #END ALLOY DRONE SCOUT UNIT
 
 #BEGIN ALLOY DRONE SCANNER UNIT
   - type: STR_ALLOY_DRONE_SCANNER
     race: STR_ALLOY_DRONE_SCANNER
-    stats:
-      tu: 80
-      stamina: 130
-      health: 90
-      bravery: 110
-      reactions: 70
-      firing: 100
-      throwing: 0
-      strength: 50
-      psiStrength: 120
-      psiSkill: 0
-      melee: 0
+    stats: *ALLOYDRONE_STATS
     armor: ALLOY_DRONE_SCANNER_ARMOR
     standHeight: 6
     kneelHeight: 6
@@ -161,18 +123,7 @@ units:
 #BEGIN ALLOY DRONE MEDIKIT UNIT
   - type: STR_ALLOY_DRONE_MEDIKIT
     race: STR_ALLOY_DRONE_MEDIKIT
-    stats:
-      tu: 80
-      stamina: 130
-      health: 90
-      bravery: 110
-      reactions: 70
-      firing: 100
-      throwing: 0
-      strength: 50
-      psiStrength: 120
-      psiSkill: 0
-      melee: 0
+    stats: *ALLOYDRONE_STATS
     armor: ALLOY_DRONE_MEDIKIT_ARMOR
     standHeight: 6
     kneelHeight: 6
@@ -188,18 +139,7 @@ units:
 #BEGIN ALLOY DRONE TASER UNIT
   - type: STR_ALLOY_DRONE_TASER
     race: STR_ALLOY_DRONE_TASER
-    stats:
-      tu: 80
-      stamina: 130
-      health: 90
-      bravery: 110
-      reactions: 70
-      firing: 100
-      throwing: 0
-      strength: 50
-      psiStrength: 120
-      psiSkill: 0
-      melee: 0
+    stats: *ALLOYDRONE_STATS
     armor: ALLOY_DRONE_TASER_ARMOR
     standHeight: 6
     kneelHeight: 6
@@ -235,6 +175,9 @@ units:
     deathSound: 23
     moveSound: 40
     energyRecovery: 60
+    builtInWeaponSets:
+      -
+        - STR_HOVERDRONE_FLARE_WEAPON
 #END HOVERDRONE SCOUT UNIT
 
 #BEGIN HOVERDRONE SCANNER UNIT

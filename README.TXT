@@ -23,15 +23,15 @@ The mod should now also work correctly in OpenXcomExtended (Drones are now immun
 There are also models equipped with motion scanners, medikits and tasers for stunning.
 The Drones are:
 
-	- Drone/Scout (More Armor, buyable)
+	- Drone/Scout (More Armor, Flare Launcher buyable)
 	- Drone/Scanner (Less Armor, Motion Scanner)
 	- Drone/Medikit (Less Armor, Medikit x2)
 	- Drone/Taser (Less Armor, Taser for range limited Stun, needs Taser Clips)
-	- Alloy Drone/Scout (More Armor)
+	- Alloy Drone/Scout (More Armor, Flare Launcher)
 	- Alloy Drone/Scanner (Less Armor, Motion Scanner)
 	- Alloy Drone/Medikit (Less Armor, Medikit x2)
 	- Alloy Drone/Taser (Less Armor, Taser for range limited Stun, needs Taser Clips)
-	- Hoverdrone/Scout (More Armor, Flying Unit)
+	- Hoverdrone/Scout (More Armor, Flare Launcher, Flying Unit)
 	- Hoverdrone/Scanner (Less Armor, Motion Scanner, Flying Unit)
 	- Hoverdrone/Medikit (Less Armor, Medikit x2, Flying Unit)
 	- Hoverdrone/Scout (Less Armor, Taser for range limited Stun, unlimited Ammo)
@@ -75,6 +75,7 @@ Version 1.2
  - Fix Smokelauncher righthandedness
  - Add Hoverdrones
  - Add Language Support
+ - Add Electro Flare launcher towards Scout Drones for night Missions
 
 Version 1.1:
  - Fix Drones getting stunned / zombified on OXCE
