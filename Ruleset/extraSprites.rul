@@ -23,6 +23,8 @@ extraSprites:
 ##END XCOM DRONE BIGOBS
 
 ##BEGIN XCOM DRONE FLOOROB
+  - type: FLOOROB.PCK
+    files:
       181: Resources/Units/Xcom/Drones/DroneScout/FloorOb_DroneScout_Corpse.png
       182: Resources/Units/Xcom/Drones/DroneScanner/FloorOb_DroneScanner_Corpse.png
       183: Resources/Units/Xcom/Drones/DroneMedikit/FloorOb_DroneMedikit_Corpse.png
