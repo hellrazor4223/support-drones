@@ -1077,7 +1077,7 @@ manufacture:
       STR_ELERIUM_115: 2
     listOrder: 485
   - name: STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_SCOUT
-    category: STR_CAT_UPGRADE
+    category: STR_CAT_DRONE_UPGRADE
     requires:
       - STR_SUPPORT_DRONES
       - STR_ELERIUM_115
