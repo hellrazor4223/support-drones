@@ -602,7 +602,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCOUT: 1
@@ -619,7 +619,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCOUT: 1
@@ -637,7 +637,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCOUT: 1
@@ -655,7 +655,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCOUT: 1
@@ -754,7 +754,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCANNER: 1
@@ -772,7 +772,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCANNER: 1
@@ -790,7 +790,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCANNER: 1
@@ -810,7 +810,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCANNER: 1
@@ -910,7 +910,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
@@ -929,7 +929,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
@@ -949,7 +949,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
@@ -969,7 +969,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
@@ -1084,7 +1084,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_TASER: 1
@@ -1102,7 +1102,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_TASER: 1
@@ -1121,7 +1121,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_TASER: 1
@@ -1139,7 +1139,7 @@ manufacture:
       - STR_ALLOY_DRONE_ARMOR
       - STR_HOVERDRONE_ARMOR
     space: 12
-    time: 650
+    time: 600
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_TASER: 1
