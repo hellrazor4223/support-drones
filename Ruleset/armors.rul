@@ -5,6 +5,7 @@ armors:
 #BEGIN DRONE SCOUT ARMOR
   - type: DRONE_SCOUT_ARMOR
     spriteSheet: DRONE_SCOUT.PCK
+    spriteInv: dronescoutInventoryImage
     allowInv: false
     corpseBattle:
       - STR_DRONE_SCOUT_CORPSE
@@ -20,7 +21,7 @@ armors:
       - 0.4
       - 0.8
       - 1.0
-      - 1.0
+      - 0.8
       - 0.0
       - 1.0
       - 0.4
@@ -35,6 +36,7 @@ armors:
 #BEGIN DRONE SCANNER ARMOR
   - type: DRONE_SCANNER_ARMOR
     spriteSheet: DRONE_SCANNER.PCK
+    spriteInv: dronescannerInventoryImage
     allowInv: false
     corpseBattle:
       - STR_DRONE_SCANNER_CORPSE
@@ -55,6 +57,7 @@ armors:
 #BEGIN DRONE MEDIKIT ARMOR
   - type: DRONE_MEDIKIT_ARMOR
     spriteSheet: DRONE_MEDIKIT.PCK
+    spriteInv: dronemedikitInventoryImage
     allowInv: false
     corpseBattle:
       - STR_DRONE_MEDIKIT_CORPSE
@@ -75,6 +78,7 @@ armors:
 #BEGIN DRONE TASER ARMOR
   - type: DRONE_TASER_ARMOR
     spriteSheet: DRONE_TASER.PCK
+    spriteInv: dronetaserInventoryImage
     allowInv: false
     corpseBattle:
       - STR_DRONE_TASER_CORPSE
@@ -95,6 +99,7 @@ armors:
 #BEGIN ALLOY DRONE SCOUT ARMOR
   - type: ALLOY_DRONE_SCOUT_ARMOR
     spriteSheet: ALLOY_DRONE_SCOUT.PCK
+    spriteInv: alloydronescoutInventoryImage
     allowInv: false
     corpseBattle:
       - STR_ALLOY_DRONE_SCOUT_CORPSE
@@ -110,7 +115,7 @@ armors:
       - 0.2
       - 0.8
       - 1.0
-      - 0.9
+      - 0.8
       - 0.0
       - 1.0
       - 0.4
@@ -125,6 +130,7 @@ armors:
 #BEGIN ALLOY DRONE SCANNER ARMOR
   - type: ALLOY_DRONE_SCANNER_ARMOR
     spriteSheet: ALLOY_DRONE_SCANNER.PCK
+    spriteInv: alloydronescannerInventoryImage
     allowInv: false
     corpseBattle:
       - STR_ALLOY_DRONE_SCANNER_CORPSE
@@ -145,6 +151,7 @@ armors:
 #BEGIN ALLOY DRONE MEDIKIT ARMOR
   - type: ALLOY_DRONE_MEDIKIT_ARMOR
     spriteSheet: ALLOY_DRONE_MEDIKIT.PCK
+    spriteInv: alloydronemedikitInventoryImage
     allowInv: false
     corpseBattle:
       - STR_ALLOY_DRONE_MEDIKIT_CORPSE
@@ -165,6 +172,7 @@ armors:
 #BEGIN ALLOY DRONE TASER ARMOR
   - type: ALLOY_DRONE_TASER_ARMOR
     spriteSheet: ALLOY_DRONE_TASER.PCK
+    spriteInv: alloydronetaserInventoryImage
     allowInv: false
     corpseBattle:
       - STR_ALLOY_DRONE_TASER_CORPSE
@@ -185,6 +193,7 @@ armors:
 #BEGIN HOVERDRONE SCOUT ARMOR
   - type: HOVERDRONE_SCOUT_ARMOR
     spriteSheet: HOVERDRONE_SCOUT.PCK
+    spriteInv: hoverdronescoutInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_SCOUT_CORPSE
@@ -217,6 +226,7 @@ armors:
 #BEGIN HOVERDRONE SCANNER ARMOR
   - type: HOVERDRONE_SCANNER_ARMOR
     spriteSheet: HOVERDRONE_SCANNER.PCK
+    spriteInv: hoverdronescannerInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_SCANNER_CORPSE
@@ -239,6 +249,7 @@ armors:
 #BEGIN HOVERDRONE MEDIKIT ARMOR
   - type: HOVERDRONE_MEDIKIT_ARMOR
     spriteSheet: HOVERDRONE_MEDIKIT.PCK
+    spriteInv: hoverdronemedikitInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_MEDIKIT_CORPSE
@@ -261,6 +272,7 @@ armors:
 #BEGIN HOVERDRONE TASER ARMOR
   - type: HOVERDRONE_TASER_ARMOR
     spriteSheet: HOVERDRONE_TASER.PCK
+    spriteInv: hoverdronetaserInventoryImage
     allowInv: false
     corpseBattle:
       - STR_HOVERDRONE_TASER_CORPSE
