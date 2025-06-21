@@ -44,7 +44,7 @@ items:
     weight: 5
     bigSprite: 168
     bulletSprite: 4
-    hitAnimation: 56
+    hitAnimation: 0
     power: 60
     damageType: 9
     fireSound: 113
@@ -75,7 +75,7 @@ items:
     weight: 40
     bigSprite: 168
     bulletSprite: 4
-    hitAnimation: 56
+    hitAnimation: 0
     power: 60
     damageType: 9
     fireSound: 113
@@ -260,7 +260,7 @@ items:
     weight: 5
     bigSprite: 168
     bulletSprite: 4
-    hitAnimation: 56
+    hitAnimation: 0
     power: 60
     damageType: 9
     fireSound: 113
@@ -290,7 +290,7 @@ items:
     weight: 40
     bigSprite: 168
     bulletSprite: 4
-    hitAnimation: 56
+    hitAnimation: 0
     power: 60
     damageType: 9
     fireSound: 113
@@ -485,7 +485,7 @@ items:
     weight: 5
     bigSprite: 168
     bulletSprite: 4
-    hitAnimation: 56
+    hitAnimation: 0
     power: 60
     damageType: 9
     fireSound: 113
@@ -515,7 +515,7 @@ items:
     weight: 50
     bigSprite: 168
     bulletSprite: 4
-    hitAnimation: 56
+    hitAnimation: 0
     power: 60
     damageType: 9
     fireSound: 113
