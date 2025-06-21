@@ -17,10 +17,14 @@ ja:
 #END BRIEFINGS
 
 #BEGIN DRONES
+  STR_DRONE_FLARE_WEAPON: ""
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_DRONE_SMOKE_WEAPON: "ドローン用煙弾筒"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: "この小さな装置はドローン用の発煙弾筒で、小規模の煙幕を展開して敵の射線から自身や付近の味方を遮ることができる。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_DRONE_SCOUT: "ドローン/スカウト"
+  DRONE_SCOUT_ARMOR: ""
   STR_DRONE_SCOUT_CORPSE: "大破したドローン/スカウト"
   STR_DRONE_SCOUT_REPAIR: "ドローン/スカウトの修理"
   STR_DRONE_SCOUT_UFOPEDIA: "この小型で頑丈なドローンは偵察および哨戒用として設計されている。大型HWPの様に強力な武装や装甲は備えていないが陸上を素早く移動し、X-Com隊員を危険に晒す事なく偵察をし、敵を発見する。また、地上部隊や自身を火線から逸らす為に用いる近距離用の煙弾筒を備えている。"
@@ -33,6 +37,7 @@ ja:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "ドローン/スカウト -> 合金テーザー"
 
   STR_DRONE_SCANNER: "ドローン/スキャナー"
+  DRONE_SCANNER_ARMOR: ""
   STR_DRONE_SCANNER_WEAPON: "ドローン用モーションスキャナー"
   STR_DRONE_SCANNER_CORPSE: "大破したドローン/スキャナー"
   STR_DRONE_SCANNER_REPAIR: "ドローン/スキャナーの修理"
@@ -45,6 +50,7 @@ ja:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "ドローン/スキャナー -> 合金テーザー"
 
   STR_DRONE_MEDIKIT: "ドローン/メディキット"
+  DRONE_MEDIKIT_ARMOR: ""
   STR_DRONE_MEDIKIT_WEAPON: "ドローン用メディキット"
   STR_DRONE_MEDIKIT_CORPSE: "大破したドローン/メディキット"
   STR_DRONE_MEDIKIT_REPAIR: "ドローン/メディキットの修理"
@@ -57,6 +63,7 @@ ja:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "ドローン/メディキット -> 合金テーザー"
 
   STR_DRONE_TASER: "ドローン/テーザー"
+  DRONE_TASER_ARMOR: ""
   STR_DRONE_TASER_WEAPON: "ドローン用テーザー"
   STR_DRONE_TASER_WEAPON_AMMO: "ドローン用テーザー電池"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "ドローン用テーザー電池[x10]"
@@ -70,10 +77,14 @@ ja:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "ドローン/テーザー -> 合金メディキット"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "ドローン/テーザー -> 合金テーザー"
 
+  STR_ALLOY_DRONE_FLARE_WEAPON: ""
+  STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_ALLOY_DRONE_SMOKE_WEAPON: "合金ドローン用煙弾筒"
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: "エイリアン合金の先進性によって発煙弾筒がより頑丈になり射出距離も少々増した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。煙幕は使い様で有利にもなれば不利にもなる。合金ドローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_ALLOY_DRONE_SCOUT: "合金ドローン/スカウト"
+  ALLOY_DRONE_SCOUT_ARMOR: ""
   STR_ALLOY_DRONE_SCOUT_CORPSE: "大破した合金ドローン/スカウト"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "合金ドローン/スカウトの修理"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "この改良型のドローンはエイリアン合金をボディーに用いており、その分高価なものとなったが移動速度と装甲が増した。但しエイリアンのプラズマ兵器及び他の全ての地上用兵器に対し生存率がアップした訳ではない点に注意しなければならない。上手に用いて敵を発見し、注意を逸らせ。内蔵された煙弾筒を適時活用すれば強力な偵察兵となるだろう。"
@@ -86,6 +97,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: "合金ドローン/スカウト -> ホバーテーザー"
 
   STR_ALLOY_DRONE_SCANNER: "合金ドローン/スキャナー"
+  ALLOY_DRONE_SCANNER_ARMOR: ""
   STR_ALLOY_DRONE_SCANNER_WEAPON: "合金ドローン用モーションスキャナー"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "大破した合金ドローン/スキャナー"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "合金ドローン/スキャナーの修理"
@@ -99,6 +111,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: "合金ドローン/スキャナー -> ホバーテーザー"
 
   STR_ALLOY_DRONE_MEDIKIT: "合金ドローン/メディキット"
+  ALLOY_DRONE_MEDIKIT_ARMOR: ""
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "合金ドローン用メディキット"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "大破した合金ドローン/メディキット"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "合金ドローン/メディキットの修理"
@@ -112,6 +125,7 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: "合金ドローン/メディキット -> ホバーテーザー"
 
   STR_ALLOY_DRONE_TASER: "合金ドローン/テーザー"
+  ALLOY_DRONE_TASER_ARMOR: ""
   STR_ALLOY_DRONE_TASER_WEAPON: "合金ドローン用テーザー"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "合金ドローン用テーザー電池"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "合金ドローン用テーザー電池[x10]"
@@ -126,10 +140,14 @@ ja:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_MEDIKIT: "合金ドローン/テーザー -> ホバーメディキット"
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: "合金ドローン/テーザー -> ホバーテーザー"
 
+  STR_HOVERDRONE_FLARE_WEAPON: ""
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_HOVERDRONE_SMOKE_WEAPON: "ホバードローン用煙弾筒"
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: "さらなる技術の研さんよって敵の射線を遮る発煙弾筒の射程と装弾数が増加した。発煙弾はミッション完了後基地に帰投した際に自動的に補充される。業者と特約を結んだお陰で弾薬はふんだんにある。改良型の煙幕は使い様で有利にもなれば不利にもなる。ホバードローンを煙幕に隠しながら運用すれば敵のグレネードを引き付けることができるかもしれない。"
 
   STR_HOVERDRONE_SCOUT: "ホバードローン/スカウト"
+  HOVERDRONE_SCOUT_ARMOR: ""
   STR_HOVERDRONE_SCOUT_CORPSE: "大破したホバードローン/スカウト"
   STR_HOVERDRONE_SCOUT_REPAIR: "ホバードローン/スカウトの修理"
   STR_HOVERDRONE_SCOUT_UFOPEDIA: "3D (立体的) 機動力を持つドローンの斥候タイプはHWP (重火器プラットフォーム) と同等の装甲を持ちながらより小型で、危険度が高いあるいは不明瞭な場所への侵入に特化している。索敵やかく乱に上手く用いよ。搭載された発煙筒は身を隠したい時に役立ち、このユニットをより一層強力なものにしている。"
@@ -138,6 +156,7 @@ ja:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: "ホバードローン/スカウト -> ホバーテーザー"
 
   STR_HOVERDRONE_SCANNER: "ホバードローン/スキャナー"
+  HOVERDRONE_SCANNER_ARMOR: ""
   STR_HOVERDRONE_SCANNER_WEAPON: "ホバードローン用モーションスキャナー"
   STR_HOVERDRONE_SCANNER_CORPSE: "大破したホバードローン/スキャナー"
   STR_HOVERDRONE_SCANNER_REPAIR: "ホバードローン/スキャナーの修理"
@@ -147,6 +166,7 @@ ja:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: "ホバードローン/スキャナー -> ホバーテーザー"
 
   STR_HOVERDRONE_MEDIKIT: "ホバードローン/メディキット"
+  HOVERDRONE_MEDIKIT_ARMOR: ""
   STR_HOVERDRONE_MEDIKIT_WEAPON: "ホバードローン メディキット"
   STR_HOVERDRONE_MEDIKIT_CORPSE: "大破したホバードローン/メディキット"
   STR_HOVERDRONE_MEDIKIT_REPAIR: "ホバードローン/メディキットの修理"
@@ -156,6 +176,7 @@ ja:
   STR_UPGRADE_HOVERDRONE_MEDIKIT_TO_HOVER_TASER: "ホバードローン/メディキット -> ホバーテーザー"
 
   STR_HOVERDRONE_TASER: "ホバードローン/テーザー"
+  HOVERDRONE_TASER_ARMOR: ""
   STR_HOVERDRONE_TASER_WEAPON: "ホバードローン テーザー"
   STR_HOVERDRONE_TASER_CORPSE: "大破したホバードローン/テーザー"
   STR_HOVERDRONE_TASER_REPAIR: "ホバードローン/テーザーの修理"

@@ -17,10 +17,14 @@ de:
 #END BRIEFINGS
 
 #BEGIN DRONES
+  STR_DRONE_FLARE_WEAPON: ""
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_DRONE_SMOKE_WEAPON: "Drohnen Rauchwerfer"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "Drohne/Aufklärer"
+  DRONE_SCOUT_ARMOR: "Kampfanalyse: Drone/Aufklärer"
   STR_DRONE_SCOUT_CORPSE: "Beschädigte Drohne/Aufklärer"
   STR_DRONE_SCOUT_REPAIR: "Drohne/Aufklärer reparieren"
   STR_DRONE_SCOUT_UFOPEDIA: "Die kleine robust gebaute Drone dient zur Aufklärung im Gelände. Im Vergleich zu anderen SWTs verfügt die Drone über keinerlei offensiven Waffen oder die Panzerung derselbigen. Dafür ist sie schnell und erlaubt unseren Truppen, die gegnerischen Position auszukunftschaften, ohne unsere Agenten der Bedrohung auszusetzen. Außerdem besitzt die Drone einen Rauchwerfer, um sich und andere aus dem Schußfeld zu bringen. "
@@ -33,6 +37,7 @@ de:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Drohne/Aufklärer -> Legierungs-Betäubungswaffe"
 
   STR_DRONE_SCANNER: "Drohne/Scanner"
+  DRONE_SCANNER_ARMOR: "Kampfanalyse: Drohne/Scanner"
   STR_DRONE_SCANNER_WEAPON: "Drohnenbewegungsscanner"
   STR_DRONE_SCANNER_CORPSE: "Beschädigte Drohne/Scanner"
   STR_DRONE_SCANNER_REPAIR: "Drohne/Scanner reparieren"
@@ -45,6 +50,7 @@ de:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Drohne/Scanner-> Legierungs-Betäubungswaffe"
 
   STR_DRONE_MEDIKIT: "Drohne/Medikit"
+  DRONE_MEDIKIT_ARMOR: "Kampfanalyse: Drohne/Medikit"
   STR_DRONE_MEDIKIT_WEAPON: "Drohne Medikit"
   STR_DRONE_MEDIKIT_CORPSE: "Beschädigte Drohne/Medikit"
   STR_DRONE_MEDIKIT_REPAIR: "Drohne/Medikit reparieren"
@@ -57,6 +63,7 @@ de:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Drohne/Medikit -> Legierungs-Betäubungswaffe"
 
   STR_DRONE_TASER: "Drohne/Betäubungswaffe"
+  DRONE_TASER_ARMOR: "Kampfanalyse: Drohne/Betäubungswaffe"
   STR_DRONE_TASER_WEAPON: "Drohne Betäubungswaffe"
   STR_DRONE_TASER_WEAPON_AMMO: "Drohne/Betäubungswaffe-Ladungen"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "Drohne Betäubungswaffe-Ladungen [x10]"
@@ -70,10 +77,14 @@ de:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Drohne/Betäubungswaffe -> Legierungs-Medikit"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Drohne/Betäubungswaffe -> Legierungs-Betäubungswaffe"
 
-  STR_ALLOY_DRONE_SMOKE_WEAPON: ""
+  STR_ALLOY_DRONE_FLARE_WEAPON: ""
+  STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
+  STR_ALLOY_DRONE_SMOKE_WEAPON: "Legierungsdrohnen Rauchwerfer"
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: "Legierungs-Drohne/Aufklärer"
+  ALLOY_DRONE_SCOUT_ARMOR: "Kampfanalyse: Legierungs-Drohne/Aufklärer"
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Beschädigte Legierungs-Drohne/Aufklärer"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Legierungs-Drohne/Aufklärer reparieren"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: ""
@@ -86,6 +97,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_SCANNER: "Legierungs-Drohne/Scanner"
+  ALLOY_DRONE_SCANNER_ARMOR: "Kampfanalyse: Legierungs-Drohne/Scanner"
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Legierungs-Drohne/Bewegungsscanner"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "Beschädigte Legierungs-Drohne/Scanner"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "Legierungs-Drohne/Scanner reparieren"
@@ -100,6 +112,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_MEDIKIT: "Legierungs-Drohne/Medikit"
+  ALLOY_DRONE_MEDIKIT_ARMOR: "Kampfanalyse: Legierungs-Drohne/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Legierungs-Drohne Medikit"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Beschädigte Legierungs-Drohne/Medikit"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Legierungs-Drohne/Medikit reparieren"
@@ -113,6 +126,7 @@ de:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "Legierungs-Drohne/Betäubungswaffe"
+  ALLOY_DRONE_TASER_ARMOR: "Kampfanalyse: Legierungs-Drohne/Betäubungswaffe"
   STR_ALLOY_DRONE_TASER_WEAPON: "Legierungs-Drohne Betäubungswaffe"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Legierungs-Drohne Betäubungswaffe-Ladungen"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Erweiterte Drohne Betäubungswaffe-Ladungen [x10]"
@@ -127,10 +141,14 @@ de:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: ""
 
+  STR_HOVERDRONE_FLARE_WEAPON: ""
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_HOVERDRONE_SMOKE_WEAPON: ""
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERDRONE_SCOUT: ""
+  HOVERDRONE_SCOUT_ARMOR: ""
   STR_HOVERDRONE_SCOUT_CORPSE: ""
   STR_HOVERDRONE_SCOUT_REPAIR: ""
   STR_HOVERDRONE_SCOUT_UFOPEDIA: ""
@@ -139,6 +157,7 @@ de:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_SCANNER: ""
+  HOVERDRONE_SCANNER_ARMOR: ""
   STR_HOVERDRONE_SCANNER_WEAPON: ""
   STR_HOVERDRONE_SCANNER_CORPSE: ""
   STR_HOVERDRONE_SCANNER_REPAIR: ""
@@ -148,6 +167,7 @@ de:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_MEDIKIT: ""
+  HOVERDRONE_MEDIKIT_ARMOR: ""
   STR_HOVERDRONE_MEDIKIT_WEAPON: ""
   STR_HOVERDRONE_MEDIKIT_CORPSE: ""
   STR_HOVERDRONE_MEDIKIT_REPAIR: ""
@@ -157,6 +177,7 @@ de:
   STR_UPGRADE_HOVERDRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_TASER: ""
+  HOVERDRONE_TASER_ARMOR: ""
   STR_HOVERDRONE_TASER_WEAPON: ""
   STR_HOVERDRONE_TASER_CORPSE: ""
   STR_HOVERDRONE_TASER_REPAIR: ""

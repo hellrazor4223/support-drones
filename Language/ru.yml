@@ -17,10 +17,14 @@ ru:
 #END BRIEFINGS
 
 #BEGIN DRONES
+  STR_DRONE_FLARE_WEAPON: ""
+  STR_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_DRONE_SMOKE_WEAPON: "Дымовая установка Дрона"
   STR_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_DRONE_SCOUT: "Дрон/Разведчик"
+  DRONE_SCOUT_ARMOR: ""
   STR_DRONE_SCOUT_CORPSE: "Поврежденный Дрон/Разведчик"
   STR_DRONE_SCOUT_REPAIR: "Ремонт Дрона/Скаута"
   STR_DRONE_SCOUT_UFOPEDIA: "Этот небольшой прочный дрон разработан для проведения разведывательных операций. Хотя он не оснащен наступательным оружием или броней более крупных ТОП, он быстрый, позволяет наземным войскам быстро провести разведку позиций противника и может работать наводчиком, не подвергая риску оперативников X-Com. Он оснащен слабой системой постановки дымовой завесы, с небольшим радиусом, которая позволяет скрываться ему и наземным войскам на открытой местности или под обстрелом."
@@ -33,6 +37,7 @@ ru:
   STR_UPGRADE_DRONE_SCOUT_TO_ALLOY_TASER: "Дрон/Разведчик -> Тазер (СП)"
 
   STR_DRONE_SCANNER: "Дрон/Сканер"
+  DRONE_SCANNER_ARMOR: ""
   STR_DRONE_SCANNER_WEAPON: "Сканер движения Дрона"
   STR_DRONE_SCANNER_CORPSE: "Поврежденный Дрон/Сканер"
   STR_DRONE_SCANNER_REPAIR: "Ремонт Дрона/Сканнер"
@@ -45,6 +50,7 @@ ru:
   STR_UPGRADE_DRONE_SCANNER_TO_ALLOY_TASER: "Дрон/Сканер -> Тазер (СП)"
 
   STR_DRONE_MEDIKIT: "Дрон/Аптечка"
+  DRONE_MEDIKIT_ARMOR: ""
   STR_DRONE_MEDIKIT_WEAPON: "Аптечка Дрона"
   STR_DRONE_MEDIKIT_CORPSE: "Поврежденный Дрон/Аптечка"
   STR_DRONE_MEDIKIT_REPAIR: "Ремонт Дрона/Аптечка"
@@ -57,6 +63,7 @@ ru:
   STR_UPGRADE_DRONE_MEDIKIT_TO_ALLOY_TASER: "Дрон/Аптечка -> Тазер (СП)"
 
   STR_DRONE_TASER: "Дрон/Тазер"
+  DRONE_TASER_ARMOR: ""
   STR_DRONE_TASER_WEAPON: "Тазер Дрона"
   STR_DRONE_TASER_WEAPON_AMMO: "Заряды тазера Дрона"
   STR_DRONE_TASER_WEAPON_AMMO_X10: "Заряды тазера Дрона [x10]"
@@ -70,10 +77,14 @@ ru:
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_MEDIKIT: "Дрон/Тазер -> Аптечка (СП)"
   STR_UPGRADE_DRONE_TASER_TO_ALLOY_TASER: "Дрон/Тазер -> Тазер (СП)"
 
+  STR_ALLOY_DRONE_FLARE_WEAPON: ""
+  STR_ALLOY_DRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_ALLOY_DRONE_SMOKE_WEAPON: ""
   STR_ALLOY_DRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_ALLOY_DRONE_SCOUT: "Дрон (СП)/Разведчик"
+  ALLOY_DRONE_SCOUT_ARMOR: ""
   STR_ALLOY_DRONE_SCOUT_CORPSE: "Поврежденный Дрон (СП)/Разведчик"
   STR_ALLOY_DRONE_SCOUT_REPAIR: "Ремонт Дрона (СП)/Разведчик"
   STR_ALLOY_DRONE_SCOUT_UFOPEDIA: "Разведывательный дрон, который переоснащен шасси из сплавов пришельцев. Этот процесс, хоть и дорогостоящий, позволил нам усилить его броню и скорость. Мы убедились, что у него теперь достаточный запас прочности, чтобы выдержать плазменное оружие чужих всё земное вооружение. Используйте его с умом для обнаружения или отвлечения врагов. Устройство постановки дымовой завесы в случае необходимости гарантирует ему укрытие, что делает его весьма сильным разведчиком."
@@ -86,6 +97,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_SCANNER: "Дрон (СП)/Сканер"
+  ALLOY_DRONE_SCANNER_ARMOR: ""
   STR_ALLOY_DRONE_SCANNER_WEAPON: "Сканер движения Дрона (СП)"
   STR_ALLOY_DRONE_SCANNER_CORPSE: "Поврежденный Дрон (СП)/Сканер"
   STR_ALLOY_DRONE_SCANNER_REPAIR: "Ремонт Дрона (СП)/Сканер"
@@ -99,6 +111,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_MEDIKIT: "Дрон (СП)/Аптечка"
+  ALLOY_DRONE_MEDIKIT_ARMOR: ""
   STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Аптечка Дрона (СП)"
   STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Поврежденный Дрон (СП)/Аптечка"
   STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Ремонт Дрона (СП)/Аптечка"
@@ -112,6 +125,7 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_ALLOY_DRONE_TASER: "Дрон (СП)/Тазер"
+  ALLOY_DRONE_TASER_ARMOR: ""
   STR_ALLOY_DRONE_TASER_WEAPON: "Тазер Дрона (СП)"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Заряды тазера Дрона (СП)"
   STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Улучшенные заряды тазера Дрона [x10]"
@@ -126,10 +140,14 @@ ru:
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_MEDIKIT: ""
   STR_UPGRADE_ALLOY_DRONE_TASER_TO_HOVER_TASER: ""
 
+  STR_HOVERDRONE_FLARE_WEAPON: ""
+  STR_HOVERDRONE_FLARE_WEAPON_UFOPEDIA: ""
+
   STR_HOVERDRONE_SMOKE_WEAPON: ""
   STR_HOVERDRONE_SMOKE_WEAPON_UFOPEDIA: ""
 
   STR_HOVERDRONE_SCOUT: ""
+  HOVERDRONE_SCOUT_ARMOR: ""
   STR_HOVERDRONE_SCOUT_CORPSE: ""
   STR_HOVERDRONE_SCOUT_REPAIR: ""
   STR_HOVERDRONE_SCOUT_UFOPEDIA: ""
@@ -138,6 +156,7 @@ ru:
   STR_UPGRADE_HOVERDRONE_SCOUT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_SCANNER: ""
+  HOVERDRONE_SCANNER_ARMOR: ""
   STR_HOVERDRONE_SCANNER_WEAPON: ""
   STR_HOVERDRONE_SCANNER_CORPSE: ""
   STR_HOVERDRONE_SCANNER_REPAIR: ""
@@ -147,6 +166,7 @@ ru:
   STR_UPGRADE_HOVERDRONE_SCANNER_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_MEDIKIT: ""
+  HOVERDRONE_MEDIKIT_ARMOR: ""
   STR_HOVERDRONE_MEDIKIT_WEAPON: ""
   STR_HOVERDRONE_MEDIKIT_CORPSE: ""
   STR_HOVERDRONE_MEDIKIT_REPAIR: ""
@@ -156,6 +176,7 @@ ru:
   STR_UPGRADE_HOVERDRONE_MEDIKIT_TO_HOVER_TASER: ""
 
   STR_HOVERDRONE_TASER: ""
+  HOVERDRONE_TASER_ARMOR: ""
   STR_HOVERDRONE_TASER_WEAPON: ""
   STR_HOVERDRONE_TASER_CORPSE: ""
   STR_HOVERDRONE_TASER_REPAIR: ""
