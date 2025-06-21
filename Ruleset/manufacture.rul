@@ -641,7 +641,7 @@ manufacture:
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCOUT: 1
-      STR_ADVANCED_MEDI_KIT: 1
+      STR_MEDI_KIT: 1
       STR_ALIEN_ALLOYS: 2
       STR_ELERIUM_115: 8
     producedItems:
@@ -794,11 +794,11 @@ manufacture:
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_SCANNER: 1
-      STR_ADVANCED_MEDI_KIT: 1
+      STR_MEDI_KIT: 1
       STR_ALIEN_ALLOYS: 2
       STR_ELERIUM_115: 8
     producedItems:
-      STR_HOVERDRONE_ADVANCED_MEDIKIT: 1
+      STR_HOVERDRONE_MEDIKIT: 1
       STR_MOTION_SCANNER: 1
     listOrder: 458
   - name: STR_UPGRADE_ALLOY_DRONE_SCANNER_TO_HOVER_TASER
@@ -953,7 +953,7 @@ manufacture:
     cost: 95000
     requiredItems:
       STR_ALLOY_DRONE_MEDIKIT: 1
-      STR_ADVANCED_MEDI_KIT: 1
+      STR_MEDI_KIT: 1
       STR_ALIEN_ALLOYS: 2
       STR_ELERIUM_115: 8
     producedItems:
@@ -1461,7 +1461,7 @@ manufacture:
       STR_HOVERDRONE_SCANNER: 1
       STR_ELERIUM_115: 4
     listOrder: 558
-  - name: STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_ADVANCED_MEDIKIT
+  - name: STR_UPGRADE_HOVERDRONE_TASER_TO_HOVER_MEDIKIT
     category: STR_CAT_DRONE_UPGRADE
     requires:
       - STR_SUPPORT_DRONES
